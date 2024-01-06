@@ -38,8 +38,8 @@ def held_karp(dists):
     path.append(0)
     return opt, list(reversed(path))
 
-file = open("input.json")
-data = json.load(file)
+#file = open("input.json")
+#data = json.load(file)
 
 for row in data:
     print(''.join([str(n).rjust(3, ' ') for n in row]))
