@@ -31,4 +31,6 @@ Similar element :  23
 Positions : 3 5 
 Occurrence :  2
 -------------------------
+Time Complexity  : O(n)
+Space Complexity : O(n)
 '''
