@@ -15,3 +15,20 @@ for i,j in dic.items():
         for k in j:
             print(k,end=" ")
         print('\nOccurrence : ',len(j))
+
+'''
+Sample Output
+-------------------------
+No of Elements : 5
+
+Elements : 15 15 23 15 23
+
+Similar element :  15
+Positions : 1 2 4 
+Occurrence :  3
+
+Similar element :  23
+Positions : 3 5 
+Occurrence :  2
+-------------------------
+'''
